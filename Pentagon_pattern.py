@@ -10,7 +10,7 @@ while 1:
     for i in range(5):
         t.forward(150)
         t.left(72)
-    t.right(1)
+    t.right(3)
     angle += size
     if angle >= 120 / size:
         break
